@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body {
+  background: #E5E5E5;
+}
+
+.container {
+  width: 1200px;
+  margin: 30px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button {
+    margin-right: 30px;
+  }
+
+  a {
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #B8BECD;
+    font-size: 16px;
+    transition-duration: 1000ms;
+  }
+
+  a:hover {
+    color: #202336;
+    font-weight: 500;
+  }
+}
+
+.login {
+  border: 1px solid #FB8F1D;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 132px;
+  height: 44px;
+  color: #FB8F1D;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.register {
+  background: #FB8F1D;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+  width: 132px;
+  height: 44px;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.form_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .name {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 64px;
+    width: 360px;
+  }
+}
+
+
+.finder {
+  color: #202336;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 22px
+}
+
+.inputs {
+  width: 470px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  input {
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 52px;
+    width: 220px;
+  }
+
+}
+
+
+.explore {
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 180px;
+  height: 52px;
+  border: 1px solid #FB8F1D;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.explore_world .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 481px;
+  height: 333px;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text {
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+}
+
+.more {
+  background: #FB8F1D;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
+  width: 168px;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
