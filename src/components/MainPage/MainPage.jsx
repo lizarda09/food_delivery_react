@@ -2,6 +2,7 @@ import React from 'react';
 import FormPage from "../FormPage/FormPage";
 import ExploreWorld from "../ExploreWorld/ExploreWorld";
 import FeaturedDestinations from "../FeaturedDestinations/FeaturedDestinations";
+import Guids from "../Guids/Guids";
 
 
 const MainPage = () => {
@@ -10,6 +11,7 @@ const MainPage = () => {
             <FormPage />
             <ExploreWorld />
             <FeaturedDestinations />
+            <Guids />
         </>
 
     );

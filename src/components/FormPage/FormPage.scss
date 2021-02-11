@@ -1,6 +1,7 @@
 .form_page {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .form {
@@ -38,6 +39,7 @@
     border-radius: 6px;
     height: 52px;
     width: 220px;
+    text-align: center;
   }
 
 }
