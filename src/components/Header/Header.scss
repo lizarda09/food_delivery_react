@@ -11,6 +11,11 @@ header {
 
   button {
     margin-right: 30px;
+    transition-duration: 600ms;
+  }
+
+  button:hover {
+    font-size: 16px;
   }
 
   a {

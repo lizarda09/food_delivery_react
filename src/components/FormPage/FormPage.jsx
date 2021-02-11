@@ -1,7 +1,8 @@
+import React from 'react';
 import img1 from "../../images/thousand.png";
 import "./FormPage.scss";
 
-function FormPage() {
+const FormPage = () => {
     return (
         <div className="form_page">
             <div className="form">

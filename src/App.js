@@ -1,16 +1,17 @@
+import React from 'react';
 import Header from "./components/Header/Header";
-import FormPage from "./components/FormPage/FormPage";
-import ExploreWorld from "./components/ExploreWorld/ExploreWorld";
+import { BrowserRouter, Route} from "react-router-dom";
 import './App.scss';
+import MainPage from "./components/MainPage/MainPage";
 
-
-function App() {
+const App = () => {
   return (
+      <BrowserRouter>
           <div className="container">
               <Header />
-              <FormPage />
-              <ExploreWorld />
+              <Route path="/home" render={()=> <MainPage/>} />
           </div>
+      </BrowserRouter>
   );
 }
 

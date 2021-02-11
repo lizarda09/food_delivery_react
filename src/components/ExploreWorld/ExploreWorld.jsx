@@ -1,8 +1,9 @@
+import React from 'react';
 import img2 from "../../images/world.png";
 import "./ExploreWorld.scss";
 
 
-function ExploreWorld() {
+const ExploreWorld = () => {
     return (
         <div className="explore_world">
             <div className="container">

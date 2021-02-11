@@ -1,0 +1,35 @@
+.name {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.raja {
+  position: relative;
+
+  img {
+    border-radius: 8px;
+  }
+
+  .desc {
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    width: 120px;
+    height: 56px;
+    position: absolute;
+    bottom: 4px;
+    border-radius: 0px 6px 0px 0px;
+
+    .name {
+      font-family: "Inter", serif;
+      font-weight: 600;
+      font-size: 17px;
+    }
+  }
+}
